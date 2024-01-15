@@ -16,5 +16,13 @@ function buttonFn() {
   thoughts.innerHTML = randomPenguTalks[Math.floor(Math.random() * 10)];
 }
 
-let clickBtn = document.querySelector("button");
+let clickBtn = document.querySelector(".talk");
 clickBtn.addEventListener("click", buttonFn);
+
+function snowFunction() {
+  let snow = document.querySelector(".add-snow");
+  snow.innerHTML = "  ❄️  ";
+}
+
+let adddSnow = document.querySelector(".snow");
+addSnow.addEventListener("click", snowFunction);

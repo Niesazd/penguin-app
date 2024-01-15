@@ -1,29 +1,32 @@
 .pers {
-    text-align: center;
-    font-size: 200px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  text-align: center;
+  font-size: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-button {
-    display: block;
-    margin: 0 auto;
-    padding: 8px 10px;
-    color: white;
-    background-color: #533566;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
+.talk {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 10px;
+  color: white;
+  background-color: #533566;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
 }
 .thought-bubble {
-    text-align: center;
-    margin-top: 200px;
-    font-size: 20px;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 20px;
 }
 
 .snow {
-    border-radius: 50%;
-    background-color: white;
+  border-radius: 50%;
+  background-color: white;
+  padding: 8px 10px;
+  border: none;
+  font-size: 20px;
 }
 .snow:hover {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
