@@ -21,16 +21,19 @@
 }
 
 .snow {
+  display: block;
   border-radius: 50%;
   background-color: white;
   padding: 8px 10px;
   border: none;
   font-size: 20px;
+  margin: 0 auto;
 }
 .snow:hover {
   background-color: aliceblue;
 }
 
 .add-snow {
-    display: flex;
+  display: flex;
+  flex-wrap: wrap;
 }
