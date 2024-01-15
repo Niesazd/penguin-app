@@ -27,4 +27,4 @@ function snowFunction() {
 }
 
 let addSnow = document.querySelector(".snow");
-addSnow.addEventListener("click", snowFunction);
+addSnow.addEventListener("mouseover", snowFunction);
