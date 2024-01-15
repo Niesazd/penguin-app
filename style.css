@@ -30,3 +30,7 @@
 .snow:hover {
   background-color: aliceblue;
 }
+
+.add-snow {
+    display: flex;
+}

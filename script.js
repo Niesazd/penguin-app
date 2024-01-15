@@ -20,9 +20,9 @@ let clickBtn = document.querySelector(".talk");
 clickBtn.addEventListener("click", buttonFn);
 
 function snowFunction() {
-  let snow = document.querySelector(".add-snow");
+  let snow = document.createElement("p");
   snow.innerHTML = "  ❄️  ";
 }
 
-let adddSnow = document.querySelector(".snow");
+let addSnow = document.querySelector(".snow");
 addSnow.addEventListener("click", snowFunction);
